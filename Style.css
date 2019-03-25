@@ -1,0 +1,89 @@
+body{
+   padding: 0;
+   margin: 0;
+   overflow-y: scroll;
+   font-family: 'Roboto', sans-serif;
+   background-color:#DEE5E5;
+   background-image: url("images/background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+}
+
+#menu{
+  background-color: #040E3C;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px;
+}
+
+#logo{
+	width: 180px;
+  padding: 5px 10px 10px 20px;
+  margin: 0px;
+  position: absolute;
+  z-index: 5;
+}
+
+#ScheduleBtn {
+  padding: 0px 30px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  position:sticky;
+  float: right;
+
+}
+
+#stripe{
+display: block;
+position: absolute;
+width: 100%;
+border-top :10px solid #AA1010;
+z-index: 7;
+margin: 0;
+padding: 0;
+top: 5;
+}
+
+#cont{
+  padding-top: 10%;
+  padding-left: 8%;
+  vertical-align: middle;
+  float: inherit;
+}
+
+.thumbnail{
+  background: none;
+  border: none;
+  margin: 0px;
+  width: 180px;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+#desc{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #32539C;
+    margin: 0px;
+}
+
+#foot{
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: #7D92A3;
+  color: #040E3C;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0px 1px 0px;
+  font-size: 12pt;
+  height: 40px;
+}
+
+#social{
+  width: 10px;
+  float: right;
+  width: 20px;
+  margin-right: 10px;
+}
