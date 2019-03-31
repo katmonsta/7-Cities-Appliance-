@@ -1,4 +1,4 @@
-body{
+#index{
    padding: 0;
    margin: 0;
    overflow-y: scroll;
@@ -8,6 +8,13 @@ body{
    background-size: cover;
    background-repeat: no-repeat;
    overflow: hidden;
+}
+
+#pages{
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff;
+  overflow:auto;
+   height: auto;
 }
 
 #menu{
@@ -32,20 +39,59 @@ body{
 
 }
 
-#stripe{
-display: block;
-position: absolute;
-width: 100%;
-border-top :10px solid #AA1010;
-z-index: 7;
-margin: 0;
-padding: 0;
-top: 5;
+#schedule{
+  width: 75%;
+  height: 75%;
+  margin: 10px auto;
+  padding-top: 0px;
 }
 
+#message{
+  padding: 40px 5px 0px 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#header{
+  margin: 0px;
+  top: 0px;
+}
+
+
+#stripe{
+  display: block;
+  position: absolute;
+  width: 100%;
+  border-top :10px solid #AA1010;
+  z-index: 7;
+  margin: 0;
+  padding: 0;
+  top: 5;
+}
+
+#bread{
+  background-color: #AA1010;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+#active{
+  text-decoration: underline;
+}
+
+
+
 #cont{
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 8%;
+  vertical-align: middle;
+  float: inherit;
+}
+
+#OffersDisc{
+  padding-top: 2%;
+  padding-left: 20%;
   vertical-align: middle;
   float: inherit;
 }
@@ -79,6 +125,21 @@ top: 5;
   padding: 10px 0px 1px 0px;
   font-size: 12pt;
   height: 40px;
+}
+
+#footpage{
+  display: block;
+  position:fixed;
+  width: 100%;
+  bottom: 0px;
+  background-color: #7D92A3;
+  color: #040E3C;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0px 1px 0px;
+  font-size: 12pt;
+  height: 40px;
+  margin-top: 20px;
 }
 
 #social{

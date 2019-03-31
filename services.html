@@ -16,7 +16,7 @@
       <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
-  <body id="index">
+  <body id="pages">
 
       <!--Navigation Menu-->
        <nav id="menu" class="navbar navbar-inverse">
@@ -28,52 +28,37 @@
           </div>
         </nav>
 
-        <hr id="stripe"/>
 
-        <div id="message"><strong>Welcome!<br/></strong>
-          Thank you for taking the time to set up your Repair service, your online service request <br/>is the fasest way to get thetechnition you need to your Home to repair your Appliance.
-        </div>
+        <ol id="bread" class="breadcrumb">
+          <li id="active" class="active"><a style="color: #ffffff; padding: 0px 5px 0px 5px;" href="services.html">Services</a></li>
+          <li><a style="color: #ffffff; padding: 0px 5px 0px 5px;" href="offers.html">Offers and Coupons</a></li>
+          <li><a style="color: #ffffff; padding: 0px 5px 0px 5px;" href="filter.html">Filter Porgram</a></li>
+          <li><a style="color: #ffffff; padding: 0px 5px 0px 5px;" href="help.html">Self help/DIY</a></li>
+        </ol>
 
-        <div id="cont" class="row">
-          <div class="col-xs-6 col-md-3">
-            <a href="services.html" class="thumbnail">
-              <img src="images/icons-01.png" alt="icon">
-              <div class="caption">
-              <h3 id="desc">Services</h3>
-              </div>
-            </a>
-          </div>
+        <img id="header" src="images/header.jpg" class="img-responsive" alt="Responsive image">
 
-          <div class="col-xs-6 col-md-3">
-            <a href="offers.html" class="thumbnail">
-              <img src="images/icons-02.png" alt="icon">
-              <div class="caption">
-              <h3 id="desc">Offers</h3>
-              </div>
-            </a>
-          </div>
+        <div class="row">
+            <div id="message" class="col-md-8">
+              <strong style="font-size: 24px; color: #32539C; text-decoration: underline;">What we do<br/> </strong>
+              Once the service appointment is made, a service technician will come to your home or business and diagnose the problem. If the part is in stock, the technician will typically complete the repair during the same visit, subject to your approval. <br/>
 
-          <div class="col-xs-6 col-md-3">
-            <a href="filter.html" class="thumbnail">
-              <img src="images/icons-03.png" alt="icon">
-              <div class="caption">
-              <h3 id="desc">Filter Program</h3>
-              </div>
-            </a>
-          </div>
+              If the diagnostic is completed and the part is not in stock, the technician will provide a quote based on the cost of the required parts and labor and schedule a return visit to complete the repair, provided you approve.
+            </div>
+            <div id="message" class="col-md-4">
+              <strong style="font-size: 24px; color: #32539C; text-decoration: underline;">Services<br/></strong>
+              <ul>
+                <li>Dryer and washer repair</li>
+                <li>Refridgerator repair</li>
+                <li>Stove and oven repair</li>
+                <li>Water Cooler repair</li>
+              </ul>
 
-          <div class="col-xs-6 col-md-3">
-            <a href="help.html" class="thumbnail">
-              <img src="images/icons-04.png" alt="icon">
-              <div class="caption">
-              <h3 id="desc">Self Help</h3>
-              </div>
-            </a>
-          </div>
+            </div>
         </div>
 
 
-        <footer id="foot">
+        <footer id="footpage">
           <div>757-000-0000 | someone@example.com | Address
             <a href="#" >
               <img id="social" src="images/instagram.png" alt="instagram icon">
@@ -81,6 +66,7 @@
             <a href="#" >
               <img id="social" src="images/youtube.png" alt="youtube icon">
             </a>
+
             <a href="#" >
               <img id="social" src="images/facebook.png" alt="Facebook icon">
             </a>
